@@ -1,0 +1,3 @@
+This little container OCX works like dropdown combo exept that it can contain other controls. Dropdown and Collapse can be set to occur either on MouseEnter/Exit or on TitleClick. For those of you interested in how to use Mouse Tracking this is a good example because it uses Subclassing and the Windows MouseLeave and MouseHover system messages to control it's behavior. Try it, download is only 8.5 kB
+
+DDCC1 is set to open/close on Mouse-Enter/Exit, DDCC2 is set to open/close on TitleClick (also closed by a Timer Control after 4 seconds) and DDCC3 opens by TitleClick and closes by MouseExit (thru code in fDemo)
